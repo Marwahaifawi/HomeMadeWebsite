@@ -1,0 +1,573 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    --color:#94644F;
+
+}
+.cap {
+    text-transform: capitalize;
+   
+}
+    .container 
+    {
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .header {
+       
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+        background-color: #F7F7F7;
+
+    }
+    .header  .navbar {
+        margin: 0px 0px;
+        height: 79px;
+        background-color: white;
+    }
+    .header .navbar .logo {
+        padding-left: 0px;
+        width: 30%;
+        float: left;
+        height: 100%;
+        text-align: center;
+    }
+    .header .navbar .logo img {
+        width: 70px;
+    }
+   
+    .header .navbar .nav {
+          width: 60%;
+          float: left;
+          text-align: right;
+          height: 100%;
+ 
+      }
+      .header .navbar .nav .list  a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+      }
+      .header .navbar .nav .list  li {
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: 'Galada', cursive;
+        font-family: 'Merienda One', cursive;
+      }
+      .header .navbar .nav .list .two a {
+     border-bottom: 4px  ridge #94644F;
+     color:#94644F
+     
+ 
+      }
+      .header .navbar .nav a:hover {
+       color:  #94644F
+      }
+      .header  .header-body  {
+  
+          height: 535px;
+          width: 100%;
+      }
+      .header-body .one {
+          height: 100%;
+          width: 100%;
+          overflow: auto;
+          padding-top: 60px;
+
+      }
+      .header-body .one .imgo {
+          float: left;
+      }
+      .header-body .one img {
+          width: 300px;
+          height: 300px;
+      }
+      .header-body .one .imgt {
+        float: left;
+    }
+    .header-body .one .imgth {
+        float: left;
+    }
+    .header-body .one .imgf {
+      float: left;
+  }
+  .icons {
+      background-color: black;
+      margin-top: 10px;
+      text-align: center;
+      height: 200px;
+      padding:20px
+
+  }
+  .icons img {
+      border: 1px solid white;
+      border-radius: 100%;
+      width: 70px;
+      height: 70px;
+      padding:10px
+
+  }
+  .icons .links {
+      padding-top: 40px;
+  }
+  .icons a {
+      color: #FDAF42;
+      text-decoration: none;
+      font-family: 'Galada', cursive;
+      font-family: 'Merienda One', cursive;
+      padding-right: 40px;
+      font-size: 20px;
+  }
+  .icons a:hover {
+      color: white;
+  }
+.icons img:hover{
+    padding: 0px;
+
+}
+.icons .s  {
+ color:#F25194 ;
+}
+.icons .f {
+    color:#22A7DD;
+    
+}
+.icons .c{
+    color: #EE5123;
+}
+.footer {
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    background-color:white;
+    margin-top: 50px;
+}
+.footer .one {
+    height: 50%;
+    width: 100%;
+        background-color:#EFEFEF;
+    
+    overflow: auto;
+}
+.footer .one h2 {
+    font-size: 15px;
+    font-family: 'Merienda One', cursive;
+    padding-top: 30px;
+    color: palevioletred;
+    padding: 5px;
+}
+.footer .one p {
+font-size: 20px;
+font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+color: grey;
+padding: 5px ;
+
+
+}
+.footer .one .list {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 5px;
+    color: grey;
+}
+.footer .one .list li {
+    padding-top: 10px;
+    font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+    
+}
+.footer .one .why .list .fa {
+    color: palevioletred;
+}
+.footer .one .why {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.footer .one .time .time-list {
+    list-style-type: none;
+    font-size: 15px;
+    color: grey;
+}
+.footer .one .time .time-list li {
+    padding-top: 8px;
+    font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+}
+.footer .one .time .time-list .fa {
+    color: palevioletred;
+}
+.footer .one .time {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.footer .one .info {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.footer .two {
+    height: 50%;
+    width: 100%;
+    background-color:white
+}
+.footer .two  {
+    text-align: center;
+    height: 50%;
+}
+.footer .two .img img {
+    height: 200px;
+    width: 300px;
+    padding-top: 0px;
+}
+.footer .two .twolist .list li{
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer  .fa-facebook-square {
+    color: #4267B2;
+}
+.footer .fa-twitter-square {
+    color: #2CAAE1;
+}
+.footer .fa-pinterest-square {
+    color: #E6001F;
+}
+.footer   .fa-instagram{
+    color: #DB2E7D;
+}
+.footer   .fa-phone-square {
+    color: #2DC100;
+}
+ .search  {
+    font-family: 'Galada', cursive;
+    font-family: 'Merienda One', cursive;
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+ }
+ .search p{
+     font-size: 20px;
+    display: inline-block;
+    padding-right:10px;
+    color: white;
+ }
+ .search input {
+     width: 500px;
+     height: 20px;
+ }
+ .search .fa {
+     color: white;
+     size: 20px;
+ }
+ .skin {
+     overflow: auto;
+     width: 100%;
+     text-align: center;
+     margin-top: 40px;
+     height: 100%;
+ }
+
+.skin h2 {
+    font-size: 30px;
+    font-family: 'Merienda One', cursive;
+    padding: 20px;
+    color: #DD4F87;
+
+}
+.skin h3 {
+    font-size: 15px;
+    font-family: 'Merienda One', cursive;
+    padding-top: 20px;
+    
+}
+.skin .one {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+  
+}
+.skin .two {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.skin .three {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.skin .four {
+    float: left;
+    margin-top: 20px;
+    width: 33.33%;
+    box-sizing: border-box;
+  
+}
+.skin .five {
+    float: left;
+    margin-top: 20px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.skin .six {
+    float: left;
+    margin-top: 20px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.skin img {
+    width: 300px ;
+    height: 300px;
+
+}
+.skin .price {
+    font-size: 20px;
+    font-family: 'Merienda One', cursive;
+}
+.skin a {
+color: #DD4F87;
+text-align: right;
+
+}
+.skin .fa{
+    font-size: 25px;
+}
+
+.food {
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.food h2 {
+   font-size: 30px;
+   font-family: 'Merienda One', cursive;
+   padding: 20px;
+   color: #FCB042;
+
+}
+.food h3 {
+   font-size: 15px;
+   font-family: 'Merienda One', cursive;
+   padding-top: 20px;
+   
+}
+.food .one {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+ 
+}
+.food .two {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.food .three {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.food .four {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+ 
+}
+.food .five {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.food .six {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.food img {
+   width: 300px ;
+   height: 300px;
+
+}
+.food .price {
+   font-size: 20px;
+   font-family: 'Merienda One', cursive;
+}
+.food a {
+color: #FCB042;
+text-align: right;
+
+}
+.food .fa{
+   font-size: 25px;
+}
+.furn {
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.furn h2 {
+   font-size: 30px;
+   font-family: 'Merienda One', cursive;
+   padding: 20px;
+   color: #22A7DD;
+
+}
+.furn h3 {
+   font-size: 15px;
+   font-family: 'Merienda One', cursive;
+   padding-top: 20px;
+   
+}
+.furn .one {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+ 
+}
+.furn .two {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.furn .three {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.furn .four {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+ 
+}
+.furn .five {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.furn .six {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.furn img {
+   width: 300px ;
+   height: 300px;
+
+}
+.furn .price {
+   font-size: 20px;
+   font-family: 'Merienda One', cursive;
+}
+.furn a {
+color: #22A7DD;
+text-align: right;
+
+}
+.furn .fa{
+   font-size: 25px;
+}
+.cloth {
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    height: 100%;
+}
+
+.cloth h2 {
+   font-size: 30px;
+   font-family: 'Merienda One', cursive;
+   padding: 20px;
+   color: #ED5122;
+
+}
+.cloth h3 {
+   font-size: 15px;
+   font-family: 'Merienda One', cursive;
+   padding-top: 20px;
+   
+}
+.cloth .one {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+ 
+}
+.cloth .two {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.cloth .three {
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.cloth .four {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+ 
+}
+.cloth .five {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.cloth .six {
+   float: left;
+   margin-top: 20px;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+.cloth img {
+   width: 300px ;
+   height: 300px;
+
+}
+.cloth .price {
+   font-size: 20px;
+   font-family: 'Merienda One', cursive;
+}
+.cloth a {
+color: #ED5122;
+
+
+}
+.cloth .fa{
+   font-size: 25px;
+}

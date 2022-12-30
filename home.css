@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    --color:#94644F;
+
+}
+.cap {
+    text-transform: capitalize;
+   
+}
+    .container 
+    {
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .header {
+       
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+
+    }
+    .header  .navbar {
+        margin: 0px 0px;
+        height: 79px;
+        background-color: white;
+    }
+    .header .navbar .logo {
+        padding-left: 0px;
+        width: 30%;
+        float: left;
+        height: 100%;
+        text-align: center;
+    }
+    .header .navbar .logo img {
+        width: 70px;
+    }
+   
+    .header .navbar .nav {
+          width: 60%;
+          float: left;
+          text-align: right;
+          height: 100%;
+ 
+      }
+      .header .navbar .nav .list  a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+      }
+      .header .navbar .nav .list  li {
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: 'Galada', cursive;
+        font-family: 'Merienda One', cursive;
+      }
+      .header .navbar .nav .list .one a {
+     border-bottom: 4px  ridge #94644F;
+     color:#94644F
+     
+ 
+      }
+      .header .navbar .nav a:hover {
+       color:  #94644F
+      }
+      .header  .header-body  {
+  
+          height: 535px;
+          width: 100%;
+          background-image: url(img/header.jpg);
+          background-repeat: no-repeat;
+          background-position: bottom;
+          background-size: 100% ;
+          position: relative;
+      }
+     .header-body .text {
+         position: absolute;
+         right: 140px;
+         text-align: center;
+         top: 80px;
+        
+     }
+     .header-body .text h1 {
+         font-size: 70px;
+         font-family: 'Merienda One', cursive;
+     }
+     .header-body .text p {
+         font-size: 30px;
+         padding: 10px;
+         font-family: 'Galada', cursive;
+         font-family: 'Merienda One', cursive;
+     }
+     .about  {
+         overflow: auto;
+         width: 100%;
+         height: 120vh;
+         margin-top: 0px;
+         background-color:    #EFEFEF;
+         
+     }
+     .about h3 {
+        text-align: center;
+        font-family: 'Merienda One', cursive;
+
+     }
+     .about p {
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        font-family: 'Galada', cursive;
+        font-family: 'Merienda One', cursive;
+        color: var(--color);
+
+     }
+     .about  h2 {
+         text-align: center;
+         font-size: 40px;
+         font-family: 'Merienda One', cursive;
+         padding-top: 30px;
+
+     }
+   
+  .about .des-one {
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      padding: 10px;
+
+
+  }
+  .about .des-one p {
+    font-size: 18px;   
+
+}
+  .about img {
+      width:323px;
+      height: 300px;
+      padding-bottom: 20px;
+      
+      
+      
+  }
+  .about  .des-two {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;         
+    padding: 10px;
+
+}
+.about  .des-two p {
+    font-size: 18px;
+
+}
+.about  .chef{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+.about .chef p {
+    font-size: 18px;   
+
+
+}
+.about .exp {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+.about .exp p {
+    font-size: 18px;   
+
+}
+.contact  {
+    text-align: center;
+    background-color:white;
+    width: 100%;
+
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact h2{
+    font-size: 30px;
+         font-family: 'Merienda One', cursive;
+         padding-top: 30px;
+         color: palevioletred;
+         text-align: center;
+         padding: 10px;
+
+}
+.contact p{
+text-align: center;
+font-size: 20px;
+font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+color: grey;
+padding: 10px;
+}
+.contact .signup {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid inherit;
+    margin-top: 40px;
+    
+}
+.contact label{
+    font-size: 20px;
+    font-family: 'Galada', cursive;
+    font-family: 'Merienda One', cursive;
+    color: grey;
+    }
+    .contact input {
+     height: 20px;
+     width: 200px;
+    }
+    .contact .one {
+        width: 100%;
+        overflow: auto;
+        margin-top: 20px;
+    }
+    .contact .one .oneo {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .contact .one .oneo label {
+        text-align: left;
+        padding-right: 10px;
+    
+    }
+    
+    .contact .one .onot label {
+        text-align: left;
+        padding-right: 10px;
+    
+    }
+    .contact .two {
+        width: 100%;
+        overflow: auto;
+        margin-top: 20px;
+    }
+    .contact .two .twoo {
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .contact .two .twoo label{
+        text-align: left;
+        padding-right: 60px;
+    }
+    .contact .two .twot label{
+        text-align: left;
+        padding-right: 52px;
+    }
+    .contact .but {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .contact .but .b  {
+        width: 100px;
+        height: 40px;
+        border: 2px solid palevioletred;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Galada', cursive;
+        font-family: 'Merienda One', cursive;
+    }
+    .contact .but a {
+       text-decoration: none;
+       color: grey;
+    }
+    .contact .img {
+        float: left;
+        width: 30%;
+        height: 90%;
+        box-sizing: border-box;
+        margin-top: 120px;
+     
+    }
+    .contact .img img {
+        width: 50%;
+     
+    }
+
+.footer {
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    background-color:white;
+    margin-top: 50px;
+}
+.footer .one {
+    height: 50%;
+    width: 100%;
+        background-color:#EFEFEF;
+    
+    overflow: auto;
+}
+.footer .one h2 {
+    font-size: 15px;
+    font-family: 'Merienda One', cursive;
+    padding-top: 30px;
+    color: palevioletred;
+    padding: 5px;
+}
+.footer .one p {
+font-size: 20px;
+font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+color: grey;
+padding: 5px ;
+
+
+}
+.footer .one .list {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 5px;
+    color: grey;
+}
+.footer .one .list li {
+    padding-top: 10px;
+    font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+    
+}
+.footer .one .why .list .fa {
+    color: palevioletred;
+}
+.footer .one .why {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.footer .one .time .time-list {
+    list-style-type: none;
+    font-size: 15px;
+    color: grey;
+}
+.footer .one .time .time-list li {
+    padding-top: 8px;
+    font-family: 'Galada', cursive;
+font-family: 'Merienda One', cursive;
+}
+.footer .one .time .time-list .fa {
+    color: palevioletred;
+}
+.footer .one .time {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.footer .one .info {
+    float: left;
+    width: 33.333%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.footer .two {
+    height: 50%;
+    width: 100%;
+    background-color:white
+}
+.footer .two  {
+    text-align: center;
+    height: 50%;
+}
+.footer .two .img img {
+    height: 200px;
+    width: 300px;
+    padding-top: 0px;
+}
+.footer .two .twolist .list li{
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer  .fa-facebook-square {
+    color: #4267B2;
+}
+.footer .fa-twitter-square {
+    color: #2CAAE1;
+}
+.footer .fa-pinterest-square {
+    color: #E6001F;
+}
+.footer   .fa-instagram{
+    color: #DB2E7D;
+}
+.footer   .fa-phone-square {
+    color: #2DC100;
+}
+ 
+  
+   
+     
+    
+      
+    
+    
